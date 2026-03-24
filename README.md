@@ -2,6 +2,17 @@
 
 ## Install
 
+### GUI Wallet (macOS)
+
+```bash
+brew tap SamiAhmed7777/triangles
+brew install --cask cryptographic-triangles
+```
+
+**Note:** The macOS app is not code-signed. On first launch, right-click and select "Open" to bypass Gatekeeper.
+
+### Command-Line Daemon (macOS/Linux)
+
 ```bash
 brew tap SamiAhmed7777/triangles
 brew install triangles
