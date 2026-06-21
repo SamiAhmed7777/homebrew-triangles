@@ -11,11 +11,17 @@ brew install --cask cryptographic-triangles
 
 **Note:** The macOS app is not code-signed. On first launch, right-click and select "Open" to bypass Gatekeeper.
 
-### Command-Line Daemon (macOS/Linux)
+### Linux
+
+This tap is macOS-only. On Linux, install the official `.deb` or use the `triangles-qt-bin` package from AUR:
 
 ```bash
-brew tap SamiAhmed7777/triangles
-brew install triangles
+# Arch / Manjaro
+yay -S triangles-qt-bin
+
+# Debian / Ubuntu
+sudo dpkg -i cryptographic-triangles_5.9.20_amd64.deb
+sudo dpkg -i cryptographic-triangles-daemon_5.9.20_amd64.deb
 ```
 
 ## What is Cryptographic Triangles?

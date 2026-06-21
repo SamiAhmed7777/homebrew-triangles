@@ -1,6 +1,6 @@
 cask "cryptographic-triangles" do
-  version "5.3.6"
-  sha256 "3a58e795d898656b455fd639c0ea826a4457d390a64d00ace9a1257598d053be"
+  version "5.9.20"
+  sha256 "dbe7f679b24b1015f104a42bb908f59e636e93ae83c63fb868ece9a41c2e59f2"
 
   url "https://github.com/SamiAhmed7777/triangles_v5/releases/download/v#{version}/Cryptographic-Triangles-v#{version}-macos-arm64.dmg"
   name "Cryptographic Triangles"
@@ -22,11 +22,11 @@ cask "cryptographic-triangles" do
 
   caveats <<~EOS
     This application is not code-signed or notarized by Apple.
-    
+
     On first launch, you may need to:
     1. Right-click the app and select "Open"
     2. Click "Open" in the security dialog
-    
+
     Alternatively, allow the app in System Settings > Privacy & Security.
   EOS
 end
