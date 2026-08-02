@@ -1,6 +1,6 @@
 cask "cryptographic-triangles" do
-  version "6.2.2"
-  sha256 "63be335bf9de457ff20b86b19a49d0bfec1f30a42f2de2e55b6190cb13c79506"
+  version "6.2.3"
+  sha256 "36be046521b79d57dbbe5684bd0042689bd8518a4ac0e8867a1fe4dfc9f9f9a1"
 
   url "https://github.com/SamiAhmed7777/triangles_v5/releases/download/v#{version}/Cryptographic-Triangles-v#{version}-macos-arm64.dmg"
   name "Cryptographic Triangles"
