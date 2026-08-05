@@ -10,7 +10,7 @@ class Triangles < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/SamiAhmed7777/triangles_v5/releases/download/v#{version}/Cryptographic-Triangles-v#{version}-macos-arm64.dmg"
-  sha256 "91db628ff9dcb49cfb7f947a37ad6c1e67309cd1230055caddeda42065af5ebd"
+  sha256 "925a54f2dcfa9b044fdc751cc1a3f7b33f5ff1d1f0cfe5e444ec530a340c88f8"
     else
       odie "Cryptographic Triangles does not currently publish an Intel macOS build. " \
            "Build from source: https://github.com/SamiAhmed7777/triangles_v5"
