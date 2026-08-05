@@ -2,7 +2,7 @@ class Triangles < Formula
   desc "Cryptographic Triangles (TRI) cryptocurrency wallet and daemon"
   homepage "https://cryptographic-triangles.org"
   license "MIT"
-  version "6.2.6.0"
+  version "6.2.6.1"
 
   # macOS arm64: install the GUI app from the official .dmg.
   # Linux: not distributed here — use the triangles-qt-bin package from AUR,
@@ -10,7 +10,7 @@ class Triangles < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/SamiAhmed7777/triangles_v5/releases/download/v#{version}/Cryptographic-Triangles-v#{version}-macos-arm64.dmg"
-  sha256 "925a54f2dcfa9b044fdc751cc1a3f7b33f5ff1d1f0cfe5e444ec530a340c88f8"
+  sha256 "6be8456fefd4cd1fe4e58da50e7ee7bd954ed2f5355281af2c31c0d7fcab91c0"
     else
       odie "Cryptographic Triangles does not currently publish an Intel macOS build. " \
            "Build from source: https://github.com/SamiAhmed7777/triangles_v5"
